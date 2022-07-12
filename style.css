@@ -1,0 +1,24 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+svg{
+    background-color: whitesmoke;
+}
+
+div#tooltip {
+    position: absolute;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    padding: 5px;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+    font: 1em sans-serif;
+  }
